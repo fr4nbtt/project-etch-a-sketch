@@ -28,15 +28,15 @@ body {
 }
 
 .square {
-  width: calc(6.25% - 4px); /* 100% / 16 = 6.25%, minus border */
+  width: calc(6.25%); /* 100% / 16 = 6.25%, minus border */
   height: 0; /* Initial Height */
   padding-bottom: 6.25%; /* Mantains square aspect ratio */
-  border: 1px solid #333;
-  margin: 2px;
+  /* border: 1px solid #333; */
+  /*   margin: 2px; */
   box-sizing: border-box; /* Includes border in total width */
   background: coral;
 }
 
-.square:hover {
+.hover {
   background: #333;
 }
